@@ -2,7 +2,7 @@
 
 Components and Props .
 State and Lifecycle .
-Handling Events .
+Handling Events
 Conditional Rendering
 Lists and Keys
 Forms
