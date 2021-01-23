@@ -4,6 +4,11 @@ import React from "react";
 import Child from "./components/ChildProps";
 import Clock from "./components/Mounting";
 import Events from "./components/Events";
+import Conditionals from "./components/Conditionals";
+import Lists from "./components/Lists";
+import Form from "./components/Form";
+import Blue from "./components/composition/Blue";
+import Red from "./components/composition/Red";
 
 class App extends React.Component {
   constructor(props) {
@@ -67,8 +72,27 @@ class App extends React.Component {
           <Clock />
         </div>
 
-        <div className="mt-5">
+        <div className="mt-5 mb-5">
           <Events />
+        </div>
+
+        <hr />
+        <Conditionals />
+
+        <hr />
+        <Lists />
+
+        <hr />
+        <div className="mt-4 mb-6">
+          <Form />
+        </div>
+
+        <hr />
+
+        <div className="mt-5">
+          <h2 className="font-bold mb-3">Composition Model</h2>
+          <Blue />
+          <Red />
         </div>
       </div>
     );
